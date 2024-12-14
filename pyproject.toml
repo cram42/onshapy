@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "onshapy"
-version = "0.3.0"
+version = "0.3.1"
 description = ""
 authors = ["Grant Le Roux <cram42@users.noreply.github.com>"]
 license = "GPL-3.0-or-later"
@@ -9,7 +9,7 @@ repository = "https://github.com/cram42/onshapy"
 keywords = ["onshape", "stl"]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.11"
 requests-oauthlib = "^2.0.0"
 
 [tool.poetry.group.dev.dependencies]
