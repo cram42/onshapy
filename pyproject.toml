@@ -1,10 +1,12 @@
 [tool.poetry]
 name = "onshapy"
-version = "0.1.0"
+version = "0.2.0"
 description = ""
 authors = ["Grant Le Roux <cram42@users.noreply.github.com>"]
 license = "GPL-3.0-or-later"
 readme = "README.md"
+repository = "https://github.com/cram42/onshapy"
+keywords = ["onshape", "stl"]
 
 [tool.poetry.dependencies]
 python = "^3.12"
@@ -15,6 +17,7 @@ poethepoet = "^0.31.1"
 ruff = "^0.8.3"
 pyright = "^1.1.390"
 poetry-bumpversion = "^0.3.2"
+types-requests-oauthlib = "^2.0.0.20240417"
 
 [build-system]
 requires = ["poetry-core"]

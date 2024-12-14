@@ -1314,6 +1314,46 @@ files = [
 ]
 
 [[package]]
+name = "types-oauthlib"
+version = "3.2.0.20240806"
+description = "Typing stubs for oauthlib"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "types-oauthlib-3.2.0.20240806.tar.gz", hash = "sha256:31a8d7f7bffc067a4143d30167694ccb304316aced04de50741014155f502043"},
+    {file = "types_oauthlib-3.2.0.20240806-py3-none-any.whl", hash = "sha256:581bb8e194700d16ae1f0b62a6039261ed1afd0b88e78782e1c48f6507c52f34"},
+]
+
+[[package]]
+name = "types-requests"
+version = "2.32.0.20241016"
+description = "Typing stubs for requests"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "types-requests-2.32.0.20241016.tar.gz", hash = "sha256:0d9cad2f27515d0e3e3da7134a1b6f28fb97129d86b867f24d9c726452634d95"},
+    {file = "types_requests-2.32.0.20241016-py3-none-any.whl", hash = "sha256:4195d62d6d3e043a4eaaf08ff8a62184584d2e8684e9d2aa178c7915a7da3747"},
+]
+
+[package.dependencies]
+urllib3 = ">=2"
+
+[[package]]
+name = "types-requests-oauthlib"
+version = "2.0.0.20240417"
+description = "Typing stubs for requests-oauthlib"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "types-requests-oauthlib-2.0.0.20240417.tar.gz", hash = "sha256:68edfdfaf7bc235ec09529d04e21291dcbe91471b16faaeff8fce0e5165aa098"},
+    {file = "types_requests_oauthlib-2.0.0.20240417-py3-none-any.whl", hash = "sha256:aa1a742c5b39d3920aba14e6ab5af4a81328b2b5c7b4419b3ea76af1aa323c28"},
+]
+
+[package.dependencies]
+types-oauthlib = "*"
+types-requests = "*"
+
+[[package]]
 name = "typing-extensions"
 version = "4.12.2"
 description = "Backported and Experimental Type Hints for Python 3.8+"
@@ -1437,4 +1477,4 @@ test = ["pytest"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "9d4087954d629ed56b4e63e5ddb557f05a054d3e11e33cfcbb666e06cb4372ab"
+content-hash = "24bcd494b318abf0575a3d7a417492fd9b48e4486e91a3c506b3b5cd5e3a0ac5"
